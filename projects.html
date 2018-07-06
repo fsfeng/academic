@@ -2,15 +2,11 @@
 layout: page
 title: Projects
 ---
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
+
+<h3> Job Market Paper</h3>
+
+<b>Local Innovation, Local Diffusion? A Reassessment of Knowledge Spillovers using Machine Learning</b>
+
+<p>This paper introduces new measures of knowledge spillovers using machine learning-Natural Language Processing (NLP) methods. Under the existing literature, which measures knowledge spillovers using citations, knowledge spillovers are highly localized. That is, citations are highly likely to originate from the same location as the target patent compared to a control. This is confirmed when I extend the results of Jaffe, Trajtenberg, and Henderson (1993) up to the year 2000. Alternatively, for patent cohorts from 1980-2015, I convert patent text to data using NLP. I use cross-patent similarities as proxies for knowledge spillovers and construct controls for a location’s existing distribution of innovation across fields. I find that patents from the same location are not more (and in some cases, less) similar on average than patents from different locations, conditional on the level of expected similarity given each location’s existing innovations. My results suggest that knowledge spillover externalities may not be localised. My findings may be due to (i) studies using citations not adequately account for differences in innovation distributions across locations, (ii) patent citations capturing only one dimension of spillovers that are localized, and that cross-patent similarity may capture other dimensions of non-localised knowledge spillovers which do not necessarily generate citation relationships.</p>
+
+<h3> Works in Progress </h3>
