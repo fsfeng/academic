@@ -1,41 +1,57 @@
-body, html
-	font-size: 62.5%
 
 body
-	line-height: 1
-	font: 16px $fontSans
+	font-size: 20px
 	color: $alpha
 
 h1, h2, h3, h4
-	font-family: $fontSans
+	font-family: $fontMonospace
 	color: $beta
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
+	font-weight: 200
 
 h1
+	// font-family: $fontHead
 	font-size: 3rem
-	letter-spacing: -1px
+	letter-spacing: 0.4px
 	color: $beta
-	font-weight: 700
+	// background-color: $color3
+
 
 h2
-	font-size: 2.2rem
+	font-size: 2rem
+	font-weight: 200
 
 h3
-	font-size: 2rem
+	font-size: 1.5rem
+	text-align: center
+	line-height: 3rem
+	background-color: $color3
+	font-weight: 200
 
-h4
-	font-size: 1.6rem
+// h4
+// 	font-size: 2rem
+
+h5
+	font-size: 1.5rem
+	color: $delta
+	font-style: italic
+	text-align: center
+	background-color: $color3
+	font-weight: 200
+
 
 a
 	color: $delta
-	text-decoration: underline
+	font-family: $fontMonospace
+	// text-decoration: underline
 
-p
-	line-height: 1.7
+p, ul, ol, li
+	font-family: $fontHead
+	line-height: 2rem
 	color: $alpha
-	font-weight: 300
-	margin-bottom: 20px
+	font-weight: 200
+	// margin-bottom: 20px
 	letter-spacing: 0.4px
 
 	@media #{$mobile}
@@ -44,13 +60,16 @@ p
 strong
 	font-weight: 400
 	color: #000
-
-ul,
-ol
-	li
-		line-height: 2.4rem
-		font-weight: 300
-		color: $alpha
+//
+// ul,
+// ol
+// 	li
+// 		font-family: $fontHead
+// 		line-height: 2rem
+// 		color: $alpha
+// 		font-weight: 200
+// 		margin-bottom: 20px
+// 		letter-spacing: 0.4px
 
 img,
 pre,

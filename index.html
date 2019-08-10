@@ -3,13 +3,82 @@ layout: page
 title: Home
 ---
 
-<p style="text-align:center;"> </p>
+<p>I am a quantitative researcher using data science, machine learning, and NLP (natural language processing). I combine big data with informed economic thinking to produce unique insights. I recently graduated with a <b>PhD in Economics from NYU Stern (2019)</b>.
 
-<h3> Research Statement </h3>
-<p> I am an applied economist interested in the social effects of innovation and technology. I explore both new and existing questions using economic insights novel methods in machine learning and natural language processing. My research re-examines the localization of knowledge spillovers with broader implications for agglomeration; studies the impact of management and employment policies on job satisfcation and workers' welfare using job reviews and ratings. </p>
 
-<h3> Committee </h3>
-<p> <b>Petra Moser</b> (Chair), Department of Economics, NYU Stern
+  </p>
+
+<h3> Projects </h3>
+
+<h4>Job Satisfaction, Management Sentiment, and Financial Performance: Text Analysis with Job Reviews</h4>
+<ul>
+<li>Scraped 1.2 mil+ job ratings and review texts of publicly listed companies and merged with financial performance data from Compustat for 2014-2018
+  </li>
+<li> Trained numerous supervised ML algorithms to predict positive job sentiment with highest accuracy 88% for XGBoost and deep neural nets
+  </li>
+  <li>
+    On average, a 1% increase in job ratings increases a company's market value by approximately 0.7%, revenue by 0.6-1%.
+    </li>
+    <ul>
+      <li>Established novel evidence that sentiment towards a company management has a non-linear effect on financial performance
+        </li>
+      </ul>
+  </ul>
+
+  <p align="center">
+    <a href="{{ site.url }}/assets/QOWDraft.pdf">Paper</a>, <a href="https://github.com/fsfeng/QualityOfWork">Code</a>
+
+    </p>
+
+<h4>The Proximity of Ideas: An Analysis of Patent Text Using Machine Learning</h4>
+<ul>
+<li>Converted 1.4 mil+ patent texts into meaningful numerical data using ML/NLP algorithms Doc2Vec and topic models (Latent Dirichlet Allocation)
+  </li>
+  <li>Using my machine learning method, I find that patents from the same city are 0-0.06 times more similar than patents from different cities showing urban agglomeration small effect on flow of innovative ideas
+    </li>
+    <ul>
+      <li>Different to previous research which finds that patents from the same city are 1-2 times more likely to be cited, thus a large role for choice of cities on innovation
+        </li>
+
+      </ul>
+
+  </ul>
+
+  <p align="center">
+    <a href="{{ site.url }}/assets/current_draft.pdf">Paper</a>, <a href="https://github.com/fsfeng/IdeaProximity">Code</a>, <a href="{{ site.url }}/assets/JobPres-v2.pdf">Presentation</a>
+
+    </p>
+
+  <h4>Strategic Citations in Patents Using Machine Learning</h4>
+  <ul>
+  <li>Designed data experiments to find novel evidence of strategic bias in patent citation patterns using NLP text similarity.
+    </li>
+    <ul>
+      <li>Citations to textually similar patents in different cities are much less likely than similar patents in the same city
+        </li>
+        <li>Inventors cite their own prior patents less after they change firms
+          </li>
+      </ul>
+  </ul>
+
+  <p align="center">
+    <a href="{{ site.url }}/assets/SCDraft.pdf">Paper</a>,
+    <a href="https://github.com/fsfeng/IdeaProximity/StrategicNonCitations">Code</a>
+
+    </p>
+
+<h4>Creative Projects</h4>
+<ul>
+  <li>
+    Poetry Generator with Markov Chains: Scraped 5000+ English language poems to generate random poems using Markovify in Python.
+    </li>
+  </ul>
+
+
+
+
+<h3>References + Advisory Committee </h3>
+<p> <b>Petra Moser</b>, Department of Economics, NYU Stern
 (<a>pmoser@stern.nyu.edu</a>, <a href="https://www.petramoser.net/">Website</a>) </p>
 
 <p> <b>Luis Cabral</b>, Department of Economics, NYU Stern
